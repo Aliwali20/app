@@ -1,0 +1,192 @@
+
+ 
+ *{
+    margin: 0%;
+    padding: 0%;
+} 
+ 
+
+#header{
+width: 100%;
+height: 100px;
+background-image: linear-gradient(to right,#072e6d,#1276ab);
+
+
+}
+span img{
+    width: 24%;
+    height: 100%;
+    transform: translateX(200px);
+    border-radius: 50%;
+    margin-top: 1px;
+    margin-bottom: 1px;
+}
+
+
+
+span{
+    width: 30%;
+    height: 100px;
+    float: right;
+    background-color: #ffffff;  
+}
+
+h2{
+    float: left;
+    transform: translateX(140px);
+    text-align: center;
+    line-height: 100px;
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 25px;
+}
+
+li{
+   display: inline-block;
+   padding: 0px 30px;
+ font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+ font-size: 25px;
+
+
+}
+nav{
+ 
+    line-height: 100px;
+    text-align: center;
+
+
+}
+
+
+a{
+text-decoration: none;
+color: rgb(0, 0, 0);
+
+}
+li:hover{
+    background-color: rgb(255, 250, 250);
+    border-radius: 10px;
+   
+}
+main{
+   width: 100%;
+   height: 450px;
+  margin-top: 5px;
+   background-image: linear-gradient(to right, #000046, #1cb5e0);
+ 
+   position: relative;
+}
+aside{
+   width: 30%;
+   height: 450px;
+   background-color:#137eb1;
+   float: left;
+}
+  
+   
+
+
+  aside h1{
+    text-align: center;
+    margin-bottom: 5px;
+    padding-top: 5px;
+}
+aside article{
+    text-align: justify;
+    padding: 5px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 20px;
+         float:left;
+} 
+#article1{
+    float: right;
+    width: 70%;
+    height: 450px;
+   
+
+}
+#box{
+    width: 400px;
+    height: 180px;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+top: 50%;
+left: 65%;
+transform: translate(-50%,-50%);
+border-radius: 10px;  
+
+}
+#box h3{
+    padding-top: 5px;
+    border: 2px solid rgb(243, 6, 6);
+    width: inherit;
+    padding-bottom: 10px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    text-align: center;
+    
+
+}
+
+#box p{
+
+    padding: 5px;
+    text-align: justify;
+    font-size: 20px;
+   
+
+}
+
+
+   
+
+#box img{
+text-align: center;
+    width: 60px;
+    height: 60px;
+ transform: translateX(100px)
+
+}  
+#contant1{
+    width: 100%;
+  height: 600px;
+ text-align: center;
+ margin-top: 10px;
+}
+.imgcodershyerimg{
+    width:378px;
+    height:212px;
+    margin: 15px;
+}
+#codershiyer{
+    background-color: #137eb1;
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 15px;
+
+}
+@media  only screen and (min-width:740px)and (max-width:1200px) {
+    span{
+        width: 35%;
+
+    }
+    #article1{
+       
+        width: 65%;
+
+    }
+    aside{
+        width: 35%;
+        
+
+    }
+}
+@media  only screen and (max-width:940px) and (min-width:800px){
+    span{
+        width: 40%;
+
+    }
+
+}
